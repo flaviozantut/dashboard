@@ -300,11 +300,24 @@ td { vertical-align: top; }
 body{
   
 }
-
+#spash{
+  position: fixed;
+  height:100%;
+  width:100%;
+  z-index:999;
+  top:0;
+  left:0;
+  background-color: #151316;
+}
 header h2{
   font-family: 'Open Sans', sans-serif;
   padding: 16px;
   margin-bottom:0;
+}
+.open_sanns{
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight:bold;
 }
 footer{
   background:#6E686A;
@@ -332,6 +345,3 @@ footer{
   height:8em;
 }
 
-.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
-  border-radius:0;
-}
