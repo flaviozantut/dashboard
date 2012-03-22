@@ -88,12 +88,16 @@
                                  <input placeholder="noticia" type="text" />
                               </div>
                               <br />
+                             
+
                               <div>
-                                 <label>titulo</label>
-                                 <input placeholder="noticia" type="text" />
+                                 <label>Texto</label>
+                                 <br />
+                                 <textarea class="ckeditor" name="editor1"></textarea>
                               </div>
+                              
                               <br />
-                              <button>Default</button>
+                              <button>Salvar</button>
                            </form>
                         </div>
                      </div>
@@ -112,6 +116,7 @@
                <!--Wijmo Widgets JavaScript-->
                <script src="http://cdn.wijmo.com/jquery.wijmo-open.all.2.0.0.min.js" type="text/javascript"></script>
                <script src="http://cdn.wijmo.com/jquery.wijmo-complete.all.2.0.0.min.js" type="text/javascript"></script>
+               <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
                <!-- scripts concatenated and minified via build script -->
                <script src="js/plugins.js"></script>
                <script src="js/script.js"></script>
@@ -127,6 +132,7 @@
                   
                   
                   $('#spash').hide();
+
                   });
                </script>
                <!-- end scripts -->
